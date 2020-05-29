@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">dialogandfragment</string>
+    <string name="enter_some_text_here" />
+    <string name="submit" />
+</resources>
