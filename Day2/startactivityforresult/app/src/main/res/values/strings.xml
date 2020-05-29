@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">startactivityforresult</string>
+    <string name="registration_form" />
+    <string name="name" />
+    <string name="age" />
+    <string name="email_id" />
+    <string name="ph_number" />
+</resources>
