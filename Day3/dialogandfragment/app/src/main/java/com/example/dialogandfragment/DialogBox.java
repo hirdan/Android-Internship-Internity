@@ -49,7 +49,7 @@ public class DialogBox extends AppCompatDialogFragment {
             listener = (DialogListener) context;
         }
         catch (ClassCastException e){
-            throw new ClassCastException(context.toString() + "must implement DialogListener");
+            throw new ClassCastException(context.toString() + "must implement DialogBoxListener");
         }
 
 
