@@ -16,7 +16,7 @@ public class FragmentTask extends AppCompatActivity implements FirstFragment.Fir
         firstfragment = new FirstFragment();
         secondfragment = new SecondFragment();
 
-        getSupportFragmentManager().beginTransaction().add(R.id.fragment2, secondfragment)
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment2, secondfragment)
                 .commit();
     }
 
